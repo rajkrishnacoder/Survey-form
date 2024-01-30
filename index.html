@@ -1,0 +1,38 @@
+<! DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <title>survey-form</title>
+  <link rel="stylesheet" href="styles.css" />
+ </head>
+ <body>
+    <h1 id="title">Survey Form</h1>
+     <p id="description">Thank you for taking the time to help us improve the platform</p>
+   <form id="survey-form">
+     <fieldset>
+      <label for="name" id="name-label">Name <input placeholder="Enter your name" id="name" type="text-" required> </label>
+      <label for="email" id="email-label">email <input placeholder="Enter your email" required id="email" type="email"></label>
+      <label for="number" id="number-label">number <input placeholder="Age" id="number" type="number" min="13" max="120"></label>
+     </fieldset>
+     <fieldset>
+      <label for="dropdown"> which pet you love?
+        <select id="dropdown">
+          <option>select</option>
+          <option>Dog</option>
+          <option>Cat</option>
+        </select>
+      </label>
+     <div>
+      <label for="radio"> windows <input name="machine" id="radio" type="radio" value="windows" checked> </label>
+      <label for="radio"> macbook<input name="machine" id="radio" type="radio" value="macbook"> </label>
+     </div>
+      <label for="checkbox"><input type="checkbox" id="checkbox"  name="account-type" value="dip"> </label>
+      <label for="checkbox"><input type="checkbox" id="checkbox" name="account-type" value="rajkrishna" checked></label>
+      <labell> 
+        <textarea></textarea>
+      </label>
+    </fieldset>
+    <input type="submit" id="submit">
+   </form>
+ </body>
+</html>
